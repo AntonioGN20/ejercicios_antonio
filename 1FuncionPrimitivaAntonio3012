@@ -1,9 +1,0 @@
-% Author		:Antonio García Noguez
-% Date			:20/05/2021
-
-pkg load symbolic
-clear all
-clc
-syms t
-f=g
-i=int(f,t)
