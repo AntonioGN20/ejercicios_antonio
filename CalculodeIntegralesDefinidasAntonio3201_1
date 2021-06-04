@@ -1,0 +1,12 @@
+% Author		:Antonio García Noguez
+% Date			:20/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms t
+f=-1.197*t^2+58.67
+a=input('Ingrese el intervalo inferior: ')
+b=input('Ingrese el intervalo superior: ')
+i=int(f,t,a,b)
+d=(58.67+i)/2*7*0.305
