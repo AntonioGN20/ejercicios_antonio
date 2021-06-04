@@ -1,0 +1,14 @@
+% Author		:Antonio García Noguez
+% Date			:20/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms t
+f=sqrt(t)+t
+a=input('Ingrese el intervalo inferior: ')
+b=input('Ingrese el intervalo superior: ')
+i=int(f,t,a,b)
+d1=(i)*2*1609.344
+d2=(i)*3*1609.344
+d3=(i)*4*1609.344
