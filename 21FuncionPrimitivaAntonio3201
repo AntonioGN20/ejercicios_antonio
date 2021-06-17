@@ -1,0 +1,12 @@
+% Author        :Antonio García Noguez
+% Date            :20/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms x
+f=abs(x+2)
+a=-4
+b=2
+i=int(f,x,a,b)
+
