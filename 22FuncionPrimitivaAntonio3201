@@ -1,0 +1,11 @@
+% Author        :Antonio García Noguez
+% Date            :20/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms x
+f=(2*x^2)-(3*x)
+a=-3
+b=3
+i=int(f,x,a,b)
