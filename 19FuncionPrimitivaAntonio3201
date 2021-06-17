@@ -1,0 +1,11 @@
+% Author        :Antonio García Noguez
+% Date            :20/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms x
+f=x
+a=1
+b=4
+i=int(f,x,a,b)
