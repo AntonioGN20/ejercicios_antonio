@@ -1,0 +1,11 @@
+% Author        :Antonio Garcia Noguez
+% Date        :29/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms y
+f=(y^2)/(y+2)
+a=-1
+b=1
+i=int(f,y,a,b)
