@@ -1,0 +1,11 @@
+﻿% Author        :Antonio Garcia Noguez
+% Date        :29/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms x
+f=x^3
+a=-1
+b=3
+i=int(f,x,a,b)
