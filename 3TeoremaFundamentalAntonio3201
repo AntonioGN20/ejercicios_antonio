@@ -1,0 +1,11 @@
+% Autor        :Antonio Garcia Noguez
+% Fecha        :29/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms x
+f=sqrt(2*x)+nthroot(x,3)
+a=0
+b=8
+i=int(f,x,a,b)
