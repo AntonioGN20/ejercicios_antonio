@@ -1,0 +1,10 @@
+﻿% Author        :Antonio Garcia Noguez
+% Date        :29/05/2021
+
+pkg load symbolic
+clear all
+clc
+f=(sqrt(a)-sqrt(x))^2
+a=0
+b=a
+i=int(f,x,a,b)
