@@ -1,0 +1,11 @@
+% Author        :Antonio Garcia Noguez
+% Date        :29/05/2021
+
+pkg load symbolic
+clear all
+clc
+syms t
+f=(2*t)/(1+t^2)
+a=2
+b=3
+i=int(f,t,a,b)
